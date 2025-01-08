@@ -2,4 +2,4 @@
 
 This is my student website for my NMA course work.
 
-[View my site](https://jkchoy.github.io/studentsite)
+[View my site](https://jkchoy.github.io/studentsite/)
