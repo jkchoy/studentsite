@@ -1,6 +1,6 @@
 body {
     font-family: helvetica, Arial, Helvetica, sans-serif;
-    background: rgb(18, 98, 114);
+    background: rgb(14, 78, 91);
     margin: 0;
     display: grid;
     align-content: center;
@@ -17,7 +17,7 @@ h2 {
     text-align: center;
 }
 p {
-    color: rgb(249, 232, 6);
+    color: rgb(10, 223, 212);
     max-width: 30em;
     margin: 0 auto;
 }
