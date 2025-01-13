@@ -60,7 +60,6 @@ main {
 }
 
 
-
 /* HERO SECTION */
 .hero {
     background-color: #97d7c7;
@@ -121,6 +120,72 @@ footer {
     display: block;
     padding: 1em;
 }
+
+/* SIDE BAR/ASIDE */
+aside {
+    padding: 2em 0;
+}
+
+@media (min-width: 768px) {
+    .two-col-sidebar {
+        display: grid;
+        grid-template-columns: 20em auto;
+    }
+    .two-col-sidebar aside {
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        margin: 0 3em 2em 0;
+        padding: .3em 2em 0 0;
+    }
+}
+
+/* STYLING FOR SUB PAGES */
+.page-sub .hero {
+    background-color: #f8c2c5;
+    color: #029386;
+}
+
+/* COURSE PAGE WITH MULTIPLE PROJECT LISTS */
+.coursework {
+    padding: 3em 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 2em;
+}
+
+/* CODE BLOCKS */
+
+pre code {
+    width: 100;
+    display: block;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 1em 3em;
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+.markup-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 1em 3em;
+    margin-bottom: 1em;
+}
+
+/* DEFINITION LISTS */
+    dt {
+        font-weight: bold;
+        margin-top: 1em;
+    }
+
+dd {
+    margin: 0%;
+}
+
 
 /* FOR DEV PURPOSES */
 /* body * {
