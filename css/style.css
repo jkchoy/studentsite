@@ -141,14 +141,14 @@ aside {
 
 /* STYLING FOR SUB PAGES */
 .page-sub .hero {
-    background-color: #e6979b;
-    color: white;
+    background-color: #e2aeb0;
+    color: rgb(87, 67, 67);
 }
 
 .page-sub .hero p {
     max-width: 30em;
     margin: 1em auto;
-    color: #1a8749;
+    color: #298651;
 }
 
 /* COURSE PAGE WITH MULTIPLE PROJECT LISTS */
