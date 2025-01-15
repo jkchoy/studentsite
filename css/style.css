@@ -3,9 +3,9 @@
 body { margin: 0; }
 
 /* GLOBAL COLORS */
-body { color: rgb(116, 7, 83); }
-a { color: #2f4156; }
-a:hover { color: #567c8d; }
+body { color: rgba(0, 0, 0, 1); }
+a { color: #073c1f; }
+a:hover { color: #b98087; }
 
 /* GLOBAL TYPOGRAPHY */
 body {
@@ -18,8 +18,8 @@ body {
 
 /*HEADER*/
 header {
-    background-color: #2f3d4d;
-    ;
+    background-color: #52132c;
+;
     color: rgba(0, 0, 0, 0.8);
     padding: 1em;
     display: grid;
@@ -28,7 +28,7 @@ header {
 }
 
 header a {
-    color: #eaf4ff;
+    color: white;
     text-decoration: none;
 }
 
@@ -63,9 +63,9 @@ main {
 
 /* HERO SECTION */
 .hero {
-    background-color: #6d8fa3;
+    background-color: #b98087;
     text-align: center;
-    color: #e9faf9;
+    color: #ebc5ab;
     padding: 6em 1em;
 }
 
@@ -79,16 +79,16 @@ main {
 .hero p {
     max-width: 30em;
     margin: 1em auto;
-    color: white;
+    color: #bde6d8;
 }
 
 /* COURSE SECTION */
 .courses {
-    background-color: #eaf4ff;
+    background-color: #f5ebe3;
     padding: 6em 1em;
     display: grid;
     justify-content: center;
-    color: #2f4156;
+    color: #073c1f;
 }
 
 .courses ul {
@@ -141,8 +141,14 @@ aside {
 
 /* STYLING FOR SUB PAGES */
 .page-sub .hero {
-    background-color: #f8c2c5;
-    color: #029386;
+    background-color: #e6979b;
+    color: white;
+}
+
+.page-sub .hero p {
+    max-width: 30em;
+    margin: 1em auto;
+    color: #1a8749;
 }
 
 /* COURSE PAGE WITH MULTIPLE PROJECT LISTS */
