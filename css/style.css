@@ -3,9 +3,9 @@
 body { margin: 0; }
 
 /* GLOBAL COLORS */
-body { color: rgba(0, 0, 0, 0.8); }
+body { color: #2f4156; }
 a { color: #029386; }
-a:hover { color: #ee918d; }
+a:hover { color: #567c8d; }
 
 /* GLOBAL TYPOGRAPHY */
 body {
@@ -18,7 +18,7 @@ body {
 
 /*HEADER*/
 header {
-    background-color: #029386;
+    background-color: #2f4156;
     color: rgba(0, 0, 0, 0.8);
     padding: 1em;
     display: grid;
@@ -27,12 +27,12 @@ header {
 }
 
 header a {
-    color: #f8c2c5;
+    color: #c8d9e6;
     text-decoration: none;
 }
 
 header a: :hover {
-    color: rgba(9, 121, 113, 1);
+    color: white;
 }
 
 /*SITE ID*/
@@ -62,9 +62,9 @@ main {
 
 /* HERO SECTION */
 .hero {
-    background-color: #97d7c7;
+    background-color: #c8d9e6;
     text-align: center;
-    color: #ee918d;
+    color: #567c8d;
     padding: 6em 1em;
 }
 
