@@ -3,8 +3,8 @@
 body { margin: 0; }
 
 /* GLOBAL COLORS */
-body { color: #2f4156; }
-a { color: #029386; }
+body { color: rgb(116, 7, 83); }
+a { color: #2f4156; }
 a:hover { color: #567c8d; }
 
 /* GLOBAL TYPOGRAPHY */
@@ -18,7 +18,8 @@ body {
 
 /*HEADER*/
 header {
-    background-color: #2f4156;
+    background-color: #2f3d4d;
+    ;
     color: rgba(0, 0, 0, 0.8);
     padding: 1em;
     display: grid;
@@ -27,7 +28,7 @@ header {
 }
 
 header a {
-    color: #c8d9e6;
+    color: #eaf4ff;
     text-decoration: none;
 }
 
@@ -62,9 +63,9 @@ main {
 
 /* HERO SECTION */
 .hero {
-    background-color: #c8d9e6;
+    background-color: #6d8fa3;
     text-align: center;
-    color: #567c8d;
+    color: #e9faf9;
     padding: 6em 1em;
 }
 
@@ -78,7 +79,7 @@ main {
 .hero p {
     max-width: 30em;
     margin: 1em auto;
-    color: #029386;
+    color: rgb(116, 7, 83);
 }
 
 /* COURSE SECTION */
@@ -87,7 +88,7 @@ main {
     padding: 6em 1em;
     display: grid;
     justify-content: center;
-    color: rgba(9, 121, 113);
+    color: #2f4156;
 }
 
 .courses ul {
