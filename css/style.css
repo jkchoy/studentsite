@@ -19,7 +19,6 @@ body {
 /*HEADER*/
 header {
     background-color: #2a3f5e;
-;
     color: rgba(0, 0, 0, 0.8);
     padding: 1em;
     display: grid;
@@ -32,7 +31,7 @@ header a {
     text-decoration: none;
 }
 
-header a: :hover {
+header a:hover {
     color: white;
 }
 
@@ -184,9 +183,12 @@ pre code {
 }
 
 /* CUSTOME HOME PAGE STYLING */
-.page-home .hero {
-    background-image:  
-}
+/* .page-home .hero { 
+    <img src="image/placeholder-1x1.gif" alt="Square 1x1 Placeholder Image" 
+          width="1500" height="500" />
+*/
+   
+
 
 /* DEFINITION LISTS */
     dt {
