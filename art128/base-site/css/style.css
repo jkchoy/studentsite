@@ -125,7 +125,7 @@ button {
     color: rgba(255, 255, 255, 1);
     padding: 1em;
     display: inline-block;
-    margin: .5em;
+    margin: .5em .5em .5em 0;
     text-align: center;
     border-radius: .5em;
 }
@@ -278,15 +278,72 @@ body.demo {
 
  /* SITE HEADER */
  .site-header {
-    background-color: rgba(255, 0, 0, .2);
+    padding: 1em 0;
  }
 
- /* SITE MAIN */
- .site-main {
-    background-color: rgba(255, 0, 0, .2);
+ /* ON LARGER SCREENS PLACE LOGO LEFT AND NAV RIGHT */
+ @media (min-width: 768px) {
+    .site-header .container {
+        display: flex;
+        justify-content: space-between;
+    
  }
+ }
+
+ /* STYLING FOR BOTH HEADER AND FOOTER */
+ .site-header a,
+ .site-footer a {
+    color: rgba(0,0,0,.8);
+ }
+
+ .site-header a:hover,
+ .site-footer a:hover {
+    color: rgba(0,0,0,1);
+    text-decoration: none;
+ }
+
+ /* LOGO ARE */
+
+ .site-id h1 {
+    font-size: 1.5em;
+    margin: 0;
+    padding-top: .55em;
+    text-align: center;
+ }
+
+/* SITE NAV */
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.site-nav a {
+    padding: 1em;
+    display: block;
+}
 
  /* SITE FOOTER */
  .site-footer {
-    background-color: rgba(255, 0, 0, .2);
+    /* background-color: rgba(0,0,255,.2); */
  }
+
+/* SECTIONS */
+section {
+    padding: 3em 0;
+}
+
+ /* HERO */
+ .hero {
+    padding: 6em 4%;
+    background-color: rgba(0,0,0,.1);
+    text-align: center;
+}
+
+.hero h1, p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
