@@ -183,8 +183,11 @@ pre code {
 }
 
 /* CUSTOME HOME PAGE STYLING */
-.page-home .hero { 
+/* .page-home header {
     background-color: transparent;
+} */
+
+.page-home .hero { 
     background-image: url(../image/mount\ shasta2.jpg);
     background-size: cover;
     
