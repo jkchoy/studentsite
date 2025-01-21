@@ -63,8 +63,6 @@ main {
 /* HERO SECTION */
 .hero {
     background-color: #fbdfd6;
-    background-image: url(../image/mount\ shasta2.jpg);
-    background-size: cover;
     text-align: center;
     color: #496b7e;
     padding: 6em 1em;
@@ -185,10 +183,11 @@ pre code {
 }
 
 /* CUSTOME HOME PAGE STYLING */
-/* .page-home .hero { 
-    <img src="image/placeholder-1x1.gif" alt="Square 1x1 Placeholder Image" 
-          width="1500" height="500" />
-*/
+.page-home .hero { 
+    background-color: transparent;
+    background-image: url(../image/mount\ shasta2.jpg);
+    background-size: cover;
+    
    
 
 
