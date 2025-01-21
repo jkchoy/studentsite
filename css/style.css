@@ -63,6 +63,8 @@ main {
 /* HERO SECTION */
 .hero {
     background-color: #fbdfd6;
+    background-image: url(../image/mount\ shasta2.jpg);
+    background-size: cover;
     text-align: center;
     color: #496b7e;
     padding: 6em 1em;
