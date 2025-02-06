@@ -37,6 +37,7 @@
 /* ----- GLOBAL STYLING -------- */
 /* ----------------------------- */
 /* SET GLOBAL VARIABLES */
+
 :root {
   /* BASE COLORS */
   --color-body-background: rgb(255, 255, 255);
@@ -50,16 +51,19 @@
 
 /* GLOBAL RESETS */
 /* CHANGE BOX-SIZING FOR ALL TO BORDER-BOX */
+
 * {
   box-sizing: border-box;
 }
 
 /* REMOVE THE DEFAULT 8px MARGIN ON THE BODY */
+
 body {
   margin: 0;
 }
 
 /* GLOBAL COLORS */
+
 body {
   /* SET THE COLOR OF THE MAIN BODY BACKGROUND */
   background-color: var(--color-body-background);
@@ -78,6 +82,7 @@ a:hover {
 
 /* SET GLOBAL TYPOGRAPHY */
 /* # GLOBAL BODY FONT SETTINGS */
+
 body {
   /* SET THE DEFAUT FONT FAMILY FOR ALL MAIN BODY TEXT */
   font-family: var(--font-body);
@@ -89,12 +94,8 @@ body {
 }
 
 /* # GLOBAL HEADING SETTINGS */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+h1, h2, h3, h4, h5, h6 {
   /* SET THE DEFAUT FONT FAMILY FOR ALL HEADINGS */
   font-family: var(--font-headings);
   /* SET THE DEFAUT MARGINS ALL HEADINGS */
@@ -103,6 +104,7 @@ h6 {
 
 /* SET THE DEFAULT TYPOGRAPHIC SCALE FOR ALL HEADINGS 
    (e.g. a "Traditional" Scale) */
+
 h1 {
   font-size: 3em;
   /* 48px / 16px = 3em */
@@ -140,6 +142,7 @@ h6 {
 }
 
 /* # GLOBAL PARAGRAPH SETTINGS */
+
 p {
   /* SET THE DEFAUT MARGINS ALL PARAGRAPHS */
   margin: 0.5em 0;
@@ -150,11 +153,13 @@ p {
 }
 
 /* SET THE DEFAUT WEIGHT FOR BOLD/STRONG TEXT */
+
 strong {
   font-weight: 700;
 }
 
 /* SET THE DEFAUT STYLING FOR ITALIC/EMPASIZED TEXT */
+
 em {
   font-style: italic;
 }
@@ -169,6 +174,7 @@ a:hover {
 }
 
 /* TEXT CENTERING HELPER CLASS */
+
 .text-centered {
   text-align: center;
 }
@@ -180,12 +186,14 @@ a:hover {
 
 /* #MEDIA  */
 /* #IMAGES */
+
 img {
   max-width: 100%;
   height: auto;
 }
 
 /* #VIDEO */
+
 video {
   max-width: 100%;
   height: auto;
@@ -193,6 +201,7 @@ video {
 
 /* #COMPONENTS  */
 /* #BUTTONS */
+
 button {
   font-size: inherit;
 }
@@ -237,6 +246,7 @@ a.button:hover {
 	#LARGE+ (Desktop) - min-width: 1050px
 	#EXTRALARGE+ (Desktop+) - min-width: 1250px  */
 /* SMALL+ (Mobile First Defaults) */
+
 * {
   box-sizing: border-box;
 }
@@ -257,6 +267,7 @@ body {
   - Large Screens: 18px;
 */
 /* MOBILE FIRST (DEFAULT) */
+
 body {
   font-size: 87.5%;
   /* 14px; */
@@ -266,27 +277,33 @@ body {
 @media (min-width: 768px) {
   /* Inherits Small/Mobile Body Type from Above */
 }
+
 /* #LARGE+ MEDIA QUERY */
 @media (min-width: 1050px) {
   /* LARGE BODY TYPE */
+
   body {
     font-size: 100%;
     /* 16px; */
   }
 }
+
 /* #EXTRA-LARGE+ MEDIA QUERY */
 @media (min-width: 1250px) {
   /* EXTRA-LARGE BODY TYPE */
+
   body {
     font-size: 112.5%;
     /* 18px; */
   }
 
   /* FIXED WIDTH */
+
   .container {
     max-width: 1200px;
   }
 }
+
 /* SEMANTIC GRID USING CSS FLEX BOX */
 .row {
   --gridgap: 4%;
@@ -344,6 +361,7 @@ body {
   }
 }
 /* FOR DEMO PURPOSES ONLY */
+
 .demo .column {
   padding: 1em;
   background: #ddd;
