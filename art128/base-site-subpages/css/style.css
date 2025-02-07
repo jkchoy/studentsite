@@ -178,29 +178,6 @@ a:hover {
   margin-right: auto;
 }
 
-.hidden {
-  position: absolute;
-  top: -9999px;
-  bottom: -9999px;
-}
-
-@media (min-width: 768px) {
-.hidden-desktop {
-  position: absolute;
-  top: -9999px;
-  bottom: -9999px;
-}
-}
-
-/* @media (min-width: 767px) { 
-  .hidden-desktop {
-    position: absolute;
-    top: -9999px;
-    bottom: -9999px;
-  }
-  } */
-
-
 /* #MEDIA  */
 /* #IMAGES */
 img {
@@ -222,8 +199,7 @@ button {
 
 button,
 a.button,
-form input[type=submit]
- {
+form input[type=submit] {
   display: inline-block;
   background-color: var(--color-links);
   border: 1px solid var(--color-links);
@@ -247,8 +223,7 @@ a.button.alt {
 
 button:hover,
 a.button:hover,
-form input[type=submit]:hover
-{
+form input[type=submit]:hover {
   background-color: var(--color-links-darker);
   color: #fff;
   border-color: var(--color-links-darker);
@@ -486,6 +461,221 @@ section {
   margin-bottom: 0;
 }
 
+/* Articles */
+article {
+  max-width: 38em;
+  margin: 0 auto 8em auto;
+  padding: 2em 0;
+}
+article h1 {
+  text-align: center;
+}
+article h1 + h2 {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  font-weight: normal;
+  margin-bottom: 1em;
+}
+article .date {
+  text-align: center;
+  font-size: 0.625em;
+  line-height: 0.625em;
+  color: #999;
+  font-weight: normal;
+}
+article .date + p {
+  margin-top: 2em;
+}
+article p + h2,
+article p + h3,
+article p + h4,
+article p + h5,
+article p + h6 {
+  margin-top: 1em;
+}
+
+/* Posts */
+.post {
+  padding: 2em 0;
+}
+
+/* Sub Pages with Multiple Column Layout */
+@media (min-width: 768px) {
+  .subpage-twocol {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .subpage-sidebar {
+    width: 21%;
+    padding-right: 2em;
+  }
+}
+.subpage-sidebar .subheader {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #ccc;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #999;
+}
+
+@media (min-width: 768px) {
+  .subpage-main {
+    width: 70%;
+    padding-left: 2em;
+    border-left: 1px solid #ccc;
+  }
+}
+.subpage-main section:first-child {
+  padding-top: 0;
+}
+.subpage-main section:last-child {
+  padding-bottom: 5em;
+}
+
+.subpage-navigation {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 0;
+}
+.subpage-navigation ul {
+  margin: 0;
+  padding: 0;
+}
+.subpage-navigation ul li {
+  list-style: none;
+  margin-left: 0;
+}
+.subpage-navigation ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5em 0.875em;
+  border-bottom: 1px solid #ccc;
+}
+.subpage-navigation ul li ul {
+  border-top: none;
+}
+.subpage-navigation ul li ul li a {
+  padding-left: 1.875em;
+}
+
+/* Sub page with list items */
+.list-item {
+  padding: 2em 0;
+}
+.list-item .featured-image {
+  width: 30%;
+  margin-right: 5%;
+  float: left;
+}
+.list-item article {
+  margin-left: 35%;
+}
+.list-item article h2 {
+  margin-top: 0;
+}
+.list-item:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.list-item + .list-item {
+  margin-top: 2em;
+  border-top: 1px solid #eee;
+  padding-top: 4em;
+}
+
+/* Swap the display order of two columns */
+.orderswap {
+  flex-direction: row-reverse;
+}
+
+/* OLD/LEGACY SUPPORT FOR PRE-FLEXBOX ORDERSWAP */
+/* OLD VERTICAL CENTERING MARKUP PRE-FLEXBOX */
+.vert-parent .column {
+  display: flex;
+  align-items: center;
+}
+
+/* Thumb Lists */
+.thumblist {
+  padding: 0;
+}
+.thumblist li {
+  list-style: none;
+  margin: 0;
+  padding: 3em 0;
+  clear: both;
+}
+.thumblist li img {
+  max-width: 30%;
+  margin: 0 2em 1em 0;
+  float: left;
+}
+.thumblist li p {
+  max-width: none;
+}
+.thumblist li + li {
+  border-top: 1px solid #ddd;
+}
+@media (max-width: 767px) {
+  .thumblist li img {
+    max-width: 100%;
+    margin: 0 0 1em 0;
+    float: none;
+  }
+}
+
+.thumblist-grid {
+  margin: 2em 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.thumblist-grid li {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 2em;
+  width: 46%;
+  margin-right: 8%;
+  text-align: center;
+  font-size: 0.8em;
+}
+.thumblist-grid li a {
+  outline: none;
+}
+.thumblist-grid li a img {
+  transition: border-color 0.3s ease;
+  border-color: #fff;
+}
+.thumblist-grid li a img:hover {
+  border: 3px solid #39c;
+}
+.thumblist-grid li h5,
+.thumblist-grid li p {
+  line-height: 1.2em;
+}
+.thumblist-grid li:nth-child(even) {
+  margin-right: 0;
+}
+@media (min-width: 768px) {
+  .thumblist-grid li {
+    width: 19%;
+  }
+  .thumblist-grid li:nth-child(even) {
+    margin-right: 8%;
+  }
+  .thumblist-grid li:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+
 /* #SITE NAVIGATION  */
 /* Default Site-Navigation Menu (both header & footer) */
 .site-navigation {
@@ -679,83 +869,8 @@ section {
     padding: 0.75em;
   }
 }
-
-/* SUB PAGES */
-
-article {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-article h1, article h1 + .subhead, article .date {
-  text-align: center;
-
-}
-
-article h2.subhead {
-  font-size: 1.5em;
-  line-height: 1.2;
-  
-}
-
-article .subhead {
-  font-weight: normal; 
-  opacity: .7;
-}
-
-article .date {
-  font-size: .75em;
-  opacity: .5;
-  margin-bottom: 3em;
-}
-
-article p + h1,
-article p + h2,
-article p + h3,
-article p + h4,
-article p + h5,
-article p + h6 {
-  margin-top: 1.5emm;
-}
-
-/* article p:first-of-type {
-  font-size: 1.4em;
-  line-height: 1.3;
-} */
-
-article p:first-of-type::first-letter {
-  font-size: 3em;
-  line-height: 1em;
-  background: #000;
-  color: #fff;
-  padding: .2em .4em;
-  margin-right: .3em;
-  float: left;
-}
-
-/* FORMS   */
-
-
-
-
-/* form label, 
-form input,
-form textarea, {
-  box-sizing: border-box;
-  display: block;
-  width: 100%;
-
-}
-
-form input [type=submit] {
-
-} */
-
 /* FORMS */
 form {
-  max-width: 600px;
   margin: 1.75em 0;
 }
 
@@ -801,5 +916,3 @@ form input[type=reset]:hover {
   background-color: #003;
   border-color: #003;
 }
-
-
