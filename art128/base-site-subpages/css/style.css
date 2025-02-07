@@ -221,7 +221,9 @@ button {
 }
 
 button,
-a.button {
+a.button,
+form input[type=submit]
+ {
   display: inline-block;
   background-color: var(--color-links);
   border: 1px solid var(--color-links);
@@ -244,7 +246,9 @@ a.button.alt {
 }
 
 button:hover,
-a.button:hover {
+a.button:hover,
+form input[type=submit]:hover
+{
   background-color: var(--color-links-darker);
   color: #fff;
   border-color: var(--color-links-darker);
@@ -731,24 +735,37 @@ article p:first-of-type::first-letter {
   float: left;
 }
 
+/* FORMS   */
 
 
 
 
+/* form label, 
+form input,
+form textarea, {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+
+}
+
+form input [type=submit] {
+
+} */
 
 /* FORMS */
-
-/* form {
+form {
+  max-width: 600px;
   margin: 1.75em 0;
 }
 
-form lable {
+form label {
   display: block;
 }
 
-font input,
+form input,
 form textarea {
-  font-family: helvetica, arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.15em;
   display: block;
@@ -764,8 +781,25 @@ form textarea {
   min-height: 6em;
 }
 
-form input [type=button],
-form input [type=submit],
-form input [type=reset],
+form input[type=button],
+form input[type=submit],
+form input[type=reset] {
   width: auto;
-  background-color:  */
+  background-color: #036;
+  border: 1px solid #036;
+  color: #fff;
+  padding: 0.75em 1em;
+  -webkit-border-radius: 0.32em;
+  -moz-border-radius: 0.32em;
+  border-radius: 0.32em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+form input[type=button]:hover,
+form input[type=submit]:hover,
+form input[type=reset]:hover {
+  background-color: #003;
+  border-color: #003;
+}
+
+
