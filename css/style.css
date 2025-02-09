@@ -3,9 +3,10 @@
 body { margin: 0; }
 
 /* GLOBAL COLORS */
-body { color: rgba(0, 0, 0, 1); }
+body { color: rgba(0, 0, 0, .8); }
 a { color: #222838; }
 a:hover { color: #5f4646; }
+
 
 /* GLOBAL TYPOGRAPHY */
 body {
@@ -57,7 +58,7 @@ header a:hover {
  
 /* MAIN */
 main {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.1);
 }
 
 
@@ -83,7 +84,8 @@ main {
 }
 
 /* COURSE SECTION */
-.courses {
+.courses,
+.test {
     background-color: #f9e8e8;
     padding: 6em 1em;
     display: grid;
@@ -91,13 +93,14 @@ main {
     color: #073c1f;
 }
 
-.courses ul {
+.courses ul,
+.test {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.courses h3 {
+.courses h3, {
     text-align: center;
 }
 
@@ -126,6 +129,7 @@ footer {
 .containter {
     max-width: 1000px;
     margin: 0;
+
 }
 
 section {
@@ -161,6 +165,10 @@ aside {
     margin: 1em auto;
     color: #936c6c;
 }
+
+
+
+
 
 /* COURSE PAGE WITH MULTIPLE PROJECT LISTS */
 .coursework {
@@ -227,6 +235,7 @@ header {
     position: relative;
     
 }
+
    
 /* .page-home .hero::after {
     content: "";
@@ -257,3 +266,5 @@ dd {
     border: 1px solid rgba(0,0,0,.1) !important;
     color: rgba(0,0,0,.5) !important;
 } */
+
+
