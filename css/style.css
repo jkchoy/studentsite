@@ -4,7 +4,7 @@ body { margin: 0; }
 
 /* GLOBAL COLORS */
 body { color: rgba(0, 0, 0, .8); }
-a { color: red; }
+a { color: #2a3f5e }
 a:hover { color: #c8cdcd;; }
  
 
@@ -177,14 +177,16 @@ aside {
 
 /* STYLING FOR SUB PAGES */
 .page-sub .hero {
-    background-color: #f9ede8;
-   color: #698a9c;
+    background-color: #171b34;
+    color:  #dbe5f3;
 }
+
+
 
 .page-sub .hero p {
     max-width: 30em;
     margin: 1em auto;
-    color: #936c6c;
+    color: #2a3f5e;
 }
 
 
@@ -194,7 +196,7 @@ aside {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #ca8b8b;
+    background-color: #7ea7bc;
     
 }
 
