@@ -20,7 +20,7 @@ body {
 
 /*HEADER*/
 header {
-    background-color: #2a3f5e;
+    background-color: #1c3150; 
     color: rgba(0, 0, 0, 0.8);
     padding: 1em;
     display: grid;
@@ -35,7 +35,7 @@ header a {
 }
 
 header a:hover {
-    color: white;
+    color: #dbc6c0;
 }
 
 /*SITE ID*/
@@ -44,7 +44,7 @@ header a:hover {
 }
 
 .site-id a:hover {
-    color: #adf1f4;
+    color: #dbc6c0;
 }
 
 /* SITE NAV */
@@ -62,7 +62,7 @@ header a:hover {
 }
 
 .site-nav a:hover {
-    color: #adf1f4;
+    color: #dbc6c0;
 }
  
 /* MAIN */
@@ -73,10 +73,11 @@ main {
 
 /* HERO SECTION */
 .hero {
-    background-color: #fbdfd6;
+    /* background-color: #fbdfd6; mount shata image */
     text-align: center;
-    color: #adf1f4;
+    color: #adebf4;
     padding: 6em 1em;
+    
 }
 
 .hero h2 {
@@ -84,6 +85,7 @@ main {
     line-height: 1;
     text-transform: uppercase;
     margin: 0 auto;
+    text-decoration: overline underline;
 }
 
 .hero p {
@@ -95,12 +97,14 @@ main {
 /* COURSE SECTION */
 .courses,
 .test {
-    background-color: rgb(0,0,0, 1);
+    background-color: #626981;
     padding: 6em 1em;
     display: grid;
     justify-content: center;
     color: #f1f3f7;
 }
+
+
 
 .courses ul,
 .test {
@@ -113,15 +117,15 @@ main {
     text-align: center;
 }
 
-.courses a { color: rgb(131, 176, 224); }
-.courses a:hover { color: #adf1f4; }
+.courses a { color: #dbc6c0; }
+.courses a:hover { color: #303854; }
 
 
 /* FOOTER */
 footer {
     border-top: 1px solid rgba(0,0,0,.05);
     padding: 1em;
-    background-color: #2a3f5e;
+    background-color: #131d2c;
 
 }
 
@@ -139,11 +143,11 @@ footer {
 .social-nav  a {
     display: block;
     padding: 1em;
-    color: #f2f2f9;
+    color: #aaa2b1;
 }
 
 
-.social-nav a:hover { color: #adf1f4; }
+.social-nav a:hover { color: #dbc6c0; }
 
 /* LAYOUT */
 .containter {
@@ -177,8 +181,8 @@ aside {
 
 /* STYLING FOR SUB PAGES */
 .page-sub .hero {
-    background-color: #171b34;
-    color:  #dbe5f3;
+    background-color: #6d7c92;
+    color:  #1c3150;
 }
 
 
@@ -186,7 +190,7 @@ aside {
 .page-sub .hero p {
     max-width: 30em;
     margin: 1em auto;
-    color: #2a3f5e;
+    color: #dbc6c0;
 }
 
 
@@ -196,7 +200,7 @@ aside {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #7ea7bc;
+    background-color: rgb(224, 224, 225);
     
 }
 
