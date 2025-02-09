@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var stickynavlinks = document.querySelectorAll(".sticky nav a");
     var j;
     for (j = 0; j <stickynavlinks.length; j++) {
-        stickynavlinks[j].onclick = fuction () {
+        stickynavlinks[j].onclick = fuction () 
             
          var stickymenu = document.querySelectorAll("stickymenu");
          var k;
@@ -45,4 +45,4 @@ document.addEventListener('DOMContentLoaded', function () {
             }
          };   
 
-        };
+        

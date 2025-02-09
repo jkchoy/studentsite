@@ -1022,5 +1022,12 @@ form input[type=reset]:hover {
 #contact {
   background-color: rgba(0, 0, 0, 0.1);
   
+}
 
+/* VERTICAL MEDIA QUERY ADDING HEIGHT/PADDING TO BOTTOM OF CONTACT SECTION ONLY FOR LARGE SCREES - CREDIT: TO ROMINA FOR THIS IDEA */
+
+@media (min-width: 600px) {
+  #contact {
+    padding-bottom: 20em;
+  }
 }
