@@ -5,7 +5,7 @@ body { margin: 0; }
 /* GLOBAL COLORS */
 body { color: rgba(0, 0, 0, .8); }
 a { color: #2a3f5e }
-a:hover { color: #c8cdcd;; }
+a:hover { color: #ab5e82; }
  
 
 
@@ -122,7 +122,7 @@ main {
     list-style: none;
 }
 
-.courses h3, {
+.courses h3 {
     text-align: center;
 }
 
@@ -199,8 +199,7 @@ aside {
 .page-sub .hero h4 {
     max-width: 30em;
     margin: 1em auto;
-    color: #dbc6c0;
-
+    color: #dbc6c0
 }
 
 
@@ -213,6 +212,8 @@ aside {
     background-color: rgb(224, 224, 225);
     
 }
+
+/* .coursework .a:hover { color: #ab5e82; } */
 
 
 .project {
