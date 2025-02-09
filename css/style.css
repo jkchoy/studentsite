@@ -75,7 +75,7 @@ main {
 .hero {
     /* background-color: #fbdfd6; mount shata image */
     text-align: center;
-    color: #adebf4;
+    color: #f5d1b1;
     padding: 6em 1em;
     
 }
@@ -91,7 +91,7 @@ main {
 .hero p {
     max-width: 30em;
     margin: 1em auto;
-    color: #beeffa
+    color: #f1e9ed
 }
 
 /* COURSE SECTION */
@@ -191,7 +191,7 @@ aside {
 /* STYLING FOR SUB PAGES */
 .page-sub .hero {
     background-color: #626981;
-    color:  rgb(224, 224, 225);
+    color:  #f5d1b1;
     
 }
 
@@ -199,7 +199,7 @@ aside {
 .page-sub .hero h4 {
     max-width: 30em;
     margin: 1em auto;
-    color: #dbc6c0
+    color: #c2bebb
 }
 
 
