@@ -231,8 +231,9 @@ header {
 
     background-image: url(../image/mountshasta4.jpg);
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 45% 55%;
     position: relative;
+    padding: 25vh 1em;
     
 }
 
