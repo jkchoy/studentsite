@@ -234,6 +234,7 @@ header {
     background-position: 45% 55%;
     position: relative;
     padding: 25vh 1em;
+    background-color: rgba(0, 0, 0, .8);
     
 }
 
