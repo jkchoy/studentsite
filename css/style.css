@@ -85,7 +85,7 @@ main {
     line-height: 1;
     text-transform: uppercase;
     margin: 0 auto;
-    text-decoration: overline underline;
+    
 }
 
 .hero p {
@@ -102,6 +102,15 @@ main {
     display: grid;
     justify-content: center;
     color: #f1f3f7;
+}
+
+
+.test {
+    background-color: rgb(224, 224, 225);
+    padding: 6em 1em;
+    display: grid;
+    justify-content: center;
+    color: rgba(0, 0, 0, .8);
 }
 
 
@@ -181,16 +190,17 @@ aside {
 
 /* STYLING FOR SUB PAGES */
 .page-sub .hero {
-    background-color: #6d7c92;
-    color:  #1c3150;
+    background-color: #626981;
+    color:  rgb(224, 224, 225);
+    
 }
 
 
-
-.page-sub .hero p {
+.page-sub .hero h4 {
     max-width: 30em;
     margin: 1em auto;
     color: #dbc6c0;
+
 }
 
 
