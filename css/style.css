@@ -95,8 +95,7 @@ main {
 }
 
 /* COURSE SECTION */
-.courses,
-.test {
+.courses {
     background-color: #626981;
     padding: 6em 1em;
     display: grid;
@@ -105,18 +104,8 @@ main {
 }
 
 
-.test {
-    background-color: rgb(224, 224, 225);
-    padding: 6em 1em;
-    display: grid;
-    justify-content: center;
-    color: rgba(0, 0, 0, .8);
-}
 
-
-
-.courses ul,
-.test {
+.courses ul, {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -204,7 +193,8 @@ aside {
 
 
 /* COURSE PAGE WITH MULTIPLE PROJECT LISTS */
-.coursework {
+.coursework,
+.test {
     padding: 3em 1em;
     display: flex;
     justify-content: center;
