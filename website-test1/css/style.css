@@ -1,0 +1,14 @@
+/* GLOBAL RESET */
+body {
+    margin: 0;
+}
+
+ /* SITE STRUCTURE */
+
+ .site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ddd;
+    padding: 1em;
+ }
+
