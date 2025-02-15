@@ -1015,20 +1015,22 @@ form input[type=reset]:hover {
 /* ART 229 SITE DESIGN 1 */
 
 
-header {
+.site-header {
   position: absolute;
   width: 100%;
   background-color: transparent;
   z-index: 10;
 }
 
-header {
+.site-header {
   padding: 1em;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 
 }
+
+
 
 .site-main .text-centered { 
 
@@ -1037,21 +1039,25 @@ header {
   background-position: 50% 50%;
   position: relative;
   padding: 10em 1em 10vh 1em;
-  background-color: rgba(0, 0, 0, .8);
+  /* background-color: rgba(0, 0, 0, .8); */
 }
 
 .ffg-title {
+  padding-left: 4em;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 35px;
   letter-spacing: 7px;
+  
   
 }
 
-/* .fit {
-  
-} */
+
 
 .goddess {
   color: #ED187C;
+}
+
+.button-scroll {
+  padding-bottom: 2em;
 }
 
