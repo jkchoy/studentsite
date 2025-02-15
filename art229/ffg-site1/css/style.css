@@ -778,13 +778,14 @@ article h4.subhead {
     display: flex;
     align-items: center;
   }
-  .site-navigation ul li {
+  /* .site-navigation ul li { */
     /* DROP DOWN MENU */
     /* stack nested lists */
     /* hide nested lists by default */
     /* show nested lists on hover */
     /* SELECTED STATE */
-  }
+  /* }  */
+  
   .site-navigation ul li a {
     margin: 0 0.5em;
     padding: 0.85em 0.5em 0.75em 0.5em;
@@ -1033,22 +1034,22 @@ header {
 
   background-image: url(../img-art229/FFG.png);
   background-size: cover;
-  background-position: 45% 55%;
+  background-position: 50% 50%;
   position: relative;
-  padding: 20em 1em 30vh 1em;
+  padding: 10em 1em 10vh 1em;
   background-color: rgba(0, 0, 0, .8);
 }
 
 .ffg-title {
   text-transform: uppercase;
   font-size: 30px;
-  letter-spacing: 3%;
+  letter-spacing: 7px;
   
 }
 
-.fit {
+/* .fit {
   
-}
+} */
 
 .goddess {
   color: #ED187C;
