@@ -32,4 +32,6 @@
 body {
     background: peachpuff;
     font-family: system-ui, Helvetica, arial, sans-serif;
+    color: #333;
+    line-height: 1.4;
 }
