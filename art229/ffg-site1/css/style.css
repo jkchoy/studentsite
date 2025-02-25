@@ -471,10 +471,10 @@ section {
 }
 
 /* Hero Sections */
-.hero {
+/* .hero {
   background: #ddd;
   border-top: none;
-  padding: 4em 1em 3em 1em;
+  padding: 1em;
   margin-bottom: 1.5em;
 }
 .hero h1,
@@ -485,7 +485,7 @@ section {
 .hero.full-width {
   margin-top: 0;
   margin-bottom: 0;
-}
+} */
 
 /* Articles */
 
@@ -1032,32 +1032,58 @@ form input[type=reset]:hover {
 
 
 
-.site-main .text-centered { 
+.site-main .hero { 
 
   background-image: url(../img-art229/FFG.png);
   background-size: cover;
   background-position: 50% 50%;
   position: relative;
-  padding: 10em 1em 10vh 1em;
+  padding: 4em 1em 1em 1em;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
   /* background-color: rgba(0, 0, 0, .8); */
 }
 
 .ffg-title {
-  padding-left: 4em;
+  /* padding-left: 4em; */
   text-transform: uppercase;
-  font-size: 35px;
-  letter-spacing: 7px;
-  
-  
+  font-size: clamp(1em, 3vw, 3em);
+  letter-spacing: 2vw;
 }
 
+.ffg-title h1 {
+  line-height: 1.1;
+  margin: 0;
+}
 
+.fit {
+  color: white;
+  display: block;
+}
 
 .goddess {
   color: #ED187C;
+  display: block;
 }
 
 .button-scroll {
   padding-bottom: 2em;
 }
 
+.ffg-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+
+.ffg-nav li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
