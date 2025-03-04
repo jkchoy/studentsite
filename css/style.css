@@ -290,5 +290,25 @@ dd {
     color: rgba(0,0,0,.5) !important;
 } */
 
+/* BUTTONS */
 
 
+.classes .button {
+    font-size: inherit;
+    display: inline-block;
+    background-color: #1c3150;
+    border: 1px solid #1c3150;
+    color: #fff;
+    padding: 4em 4em;
+    text-decoration: none;
+
+}
+
+
+
+.classes a:hover {
+  background-color: #ab5e82;
+  color: #f5d1b1;
+  border-color: #ab5e82;
+  text-decoration: none;
+}
