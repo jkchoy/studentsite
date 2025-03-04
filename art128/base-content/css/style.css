@@ -96,7 +96,7 @@ p {
 
 /* LINK */
 a {
-    color: rgba(0, 0, 153, 0.8);
+    color: rgba(6, 6, 76, 0.8);
     text-decoration: none;
 }
 
@@ -131,9 +131,9 @@ img {
 button {
     font-size: inherit;
     line-height: 1;
-    background-color: rgba(0, 0, 255, 1);
-    border: 1px solid rgba(0, 0, 255, 1);
-    color: rgba(255, 255, 255, 1);
+    background-color: rgb(7, 69, 68 );
+    border: 1px solid rgb(7, 69, 68 );
+    color: rgb(227, 232, 232);
     padding: 1em;
     display: inline-block;
     margin: .5em;
@@ -143,8 +143,8 @@ button {
 
 .button:hover,
 button:hover {
-    background-color: rgba(0, 0, 153, 1);
-    border-color: rgba(0, 0, 153, 1);
+    background-color: rgb(23, 215, 212);
+    border-color: rgb(23, 215, 212);
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
 }
@@ -152,10 +152,10 @@ button:hover {
 .button.alt {
     
     background-color: transparent;
-    color: rgba(0, 0, 153, 1);
+    color: rgb(27, 69, 68);
 }
 
 .button.alt:hover {
-    background-color: rgba(0, 0, 153, 1);
-    color: rgba(255, 255, 255, 1);
+    background-color: rgb(23, 215, 212);
+    color: rgb(227, 232, 232);
 }

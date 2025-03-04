@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener("DOMContentLoaded", function() {
   
-    //TOGGLE MENU NAV VIA ADDING/REMOVING A DATA-ATTRIBUTE
+    //TOGGLE MENU NAV FOR MOBILE BUTTON
     const menubutton = document.querySelector('.menu-button');
     const menunav = document.querySelector('.toggle-nav'); 
     menubutton.addEventListener('click', function() {
