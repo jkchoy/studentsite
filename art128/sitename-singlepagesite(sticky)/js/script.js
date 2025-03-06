@@ -6,9 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-});
 
-document.addEventListener('DOMContentLoaded', function () {
+
 
     //TOGGLE MENU NAV VIA ADDING/REMOVING A DATA-ATTRIBUTE
     const menubutton = document.querySelector('.menu-button');
@@ -27,22 +26,20 @@ document.addEventListener('DOMContentLoaded', function () {
     for (i = 0; i < acc.length; i++) {
         acc[i].getElementsByTagName('h4')[0].onclick = function () {
             this.parentElement.classList.toggle("open");
-        }
-    }
+        };
+    };
 
-})
 
     // STICKY NAV SCROLL LINKS FOR SINGLE PAGE SITES
     var stickynavlinks = document.querySelectorAll(".sticky nav a");
     var j;
-    for (j = 0; j <stickynavlinks.length; j++) {
-        stickynavlinks[j].onclick = fuction () 
+    for (j = 0; j < stickynavlinks.length; j++) {
+        stickynavlinks[j].onclick = function() {
+            menunav.setAttribute('data-navstate', 'closed');
+            // console.log("click");
+        }; 
+    };
             
-         var stickymenu = document.querySelectorAll("stickymenu");
-         var k;
-         for (i = 0; k < stickymenu.length; k++) {
-            stickymenu[k].classList.remove("expand");
-            }
-         };   
-
         
+
+});
