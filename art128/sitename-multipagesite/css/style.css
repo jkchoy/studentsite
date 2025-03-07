@@ -446,7 +446,7 @@ body {
   text-decoration: none;
 }
 .site-footer a:hover {
-  color: #003;
+  color: rgb(23, 215, 212);
 }
 .site-footer .container {
   padding-top: 0.25em;
@@ -982,7 +982,7 @@ form input[type=reset] {
 form input[type=button]:hover,
 form input[type=submit]:hover,
 form input[type=reset]:hover {
-  background-color: #003;
-  border-color: #003;
+  background-color: rgb(23, 215, 212);
+  border-color: rgb(23, 215, 212);
 }
 

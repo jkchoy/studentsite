@@ -396,7 +396,7 @@ body {
   text-decoration: none;
 }
 .site-header a:hover {
-  color: #003;
+  color: rgb(23, 215, 212)
 }
 .site-header a.button {
   color: white;
@@ -436,7 +436,7 @@ body {
   text-decoration: none;
 }
 .site-footer a:hover {
-  color: #003;
+  color: rgb(23, 215, 212);
 }
 .site-footer .container {
   padding-top: 0.25em;

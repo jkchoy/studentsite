@@ -227,7 +227,7 @@ button,
 a.button,
 form input[type=submit] {
   display: inline-block;
-  background-color: var(--color-links);
+  background-color: rgb(7, 69, 68);
   border: 1px solid var(--color-links);
   color: #fff;
   padding: 0.75em 1em;
@@ -406,7 +406,7 @@ body {
   text-decoration: none;
 }
 .site-header a:hover {
-  color: #003;
+  color: rgb(23, 215, 212);
 }
 .site-header a.button {
   color: white;
@@ -446,7 +446,7 @@ body {
   text-decoration: none;
 }
 .site-footer a:hover {
-  color: #003;
+  color: rgb(23, 215, 212);
 }
 .site-footer .container {
   padding-top: 0.25em;
