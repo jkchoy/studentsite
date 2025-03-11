@@ -16,6 +16,14 @@ body {
   line-height: 1.4;
 }
 
+/* RESPONSIVE IMAGES */
+img {
+    max-width: 100%;
+    height: auto;
+   
+    
+}
+
 /* SITE STRUCTURE */
 
 /*HEADER*/
@@ -203,7 +211,7 @@ aside {
     
 }
 
-/* .coursework .a:hover { color: #ab5e82; } */
+
 
 
 .project {

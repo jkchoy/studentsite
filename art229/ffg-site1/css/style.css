@@ -462,7 +462,7 @@ body {
 
 /* Main Site Section (Main Content Area) */
 .site-main {
-  background: #fff;
+  background-color: #fff;
 }
 
 /* Main Sections */
@@ -1086,4 +1086,12 @@ form input[type=reset]:hover {
   margin: 0;
   padding: 0;
   display: inline-block;
+}
+
+/* RIBBON */
+
+.site-main {
+  background-image: url(../image/ribbon.svg);
+  background-size: 100%;
+  background-position: center top;
 }
