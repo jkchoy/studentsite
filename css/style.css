@@ -55,6 +55,12 @@ header a:hover {
     color: #dbc6c0;
 }
 
+.visually-hidden {
+    position: absolute;
+    top: -99999px;
+    left: -99999px;
+  }
+
 /* SITE NAV */
 .site-nav ul {
     display: flex;
