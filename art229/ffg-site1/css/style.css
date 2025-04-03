@@ -233,9 +233,10 @@ button {
 
 button,
 a.button,
+
 form input[type=submit] {
   display: inline-block;
-  background-color: var(--color-links);
+  background-color: transparent;
   border: 1px solid var(--color-links);
   color: #fff;
   padding: 0.75em 1em;
@@ -246,23 +247,47 @@ form input[type=submit] {
   cursor: pointer;
   line-height: 1;
   text-decoration: none;
+  text-transform: uppercase;
 }
+
+
+.class-button {
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid var(--color-links);
+  color: #581A1B;
+  padding: 0.75em 1em;
+  border-radius: 0.32em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 
 button.alt,
 a.button.alt {
   background-color: transparent;
   border: 1px solid var(--color-links);
-  color: var(--color-links);
+  color: #ED187C;
 }
 
 button:hover,
 a.button:hover,
+.class-button:hover,
 form input[type=submit]:hover {
-  background-color: var(--color-links-darker);
-  color: #fff;
+  background-color: transparent;
+  color: #ED187C;
   border-color: var(--color-links-darker);
   text-decoration: none;
+
+
 }
+
+
 
 /* LAYOUT */
 /*
@@ -425,10 +450,12 @@ body {
 .site-header a {
   color: rgba(255, 255, 255, .8);
   text-decoration: none;
+  text-transform: uppercase;
+
 }
 
 .site-header a:hover {
-  color: rgba(255, 255, 255, 1);
+  color: #ED187C;
 }
 
 .site-header a.button {
@@ -469,12 +496,13 @@ body {
 }
 
 .site-footer a {
-  color: #333;
+  color: #ED187C;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .site-footer a:hover {
-  color: #003;
+  color: #581A1B;
 }
 
 .site-footer .container {
@@ -1127,7 +1155,7 @@ form input[type=reset]:hover {
 
 .site-main .hero {
 
-  background-image: url(../img-art229/FFG.png);
+  background-image: url(../image/FFG2.jpg);
   background-size: cover;
   background-position: 50% 50%;
   position: relative;
@@ -1144,7 +1172,7 @@ form input[type=reset]:hover {
 
 .ffg-title {
   /* padding-left: 4em; */
-  text-transform: uppercase;
+
   font-size: clamp(1em, 3vw, 3em);
   letter-spacing: 2vw;
 }
@@ -1155,11 +1183,23 @@ form input[type=reset]:hover {
 }
 
 .fit {
-  color: white;
+  text-transform: uppercase;
+  color: #ED187C;
   display: block;
 }
 
+.for-a {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  text-transform: lowercase;
+}
+
+
 .goddess {
+  text-transform: uppercase;
   color: #ED187C;
   display: block;
 }
@@ -1172,6 +1212,7 @@ form input[type=reset]:hover {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-transform: uppercase;
 
 }
 
@@ -1193,4 +1234,28 @@ form input[type=reset]:hover {
 
 /* #classes img {
   aspect-ratio: 1 / 1;
+} */
+
+/* SET BODY TYPE */
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* SET HEADING TYPE */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ED187C;
+}
+
+/* h3 {
+  color: #581A1B;
 } */
