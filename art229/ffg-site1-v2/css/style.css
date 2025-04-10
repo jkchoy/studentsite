@@ -177,6 +177,24 @@ a:hover {
   color: var(--color-links-darker);
 }
 
+/* LIST */
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+li {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
 /* TEXT CENTERING HELPER CLASS */
 .text-centered {
   text-align: center;
@@ -396,6 +414,10 @@ body {
     width: calc(20% - var(--gridgap) / 4);
   }
 
+  .row>.five-twelths {
+    width: calc(41.6666% - var(--gridgap) / 2);
+  }
+
   .row>.push-one-half {
     margin-left: calc(50% - var(--gridgap) / 2 + var(--gridgap));
   }
@@ -408,11 +430,21 @@ body {
     margin-left: calc(25% - var(--gridgap) / 1.5 + var(--gridgap));
   }
 
+  .row>.push-one-twelth {
+    margin-left: calc(8.3333% - var(--gridgap) / 2 + var(--gridgap));
+  }
+
   .row>.centered {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .row.swapped {
+    flex-direction: row-reverse;
+  }
 }
+
+
 
 /* FOR DEMO PURPOSES ONLY */
 .demo .column {
