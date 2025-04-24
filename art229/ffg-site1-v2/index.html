@@ -8,6 +8,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- SWIPER CSS - THIS GOES IN THE HEAD OF YOUR .HTML DOCUMENT -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
 <head>
   <meta charset="utf-8">
   <title>Fit For A Goddess</title>
@@ -86,8 +91,10 @@
         <div class="row">
 
           <div class="one-third column">
-            <img src="../ffg-site1/image/LevelGrad.jpg" alt="Image of women graduating from their Pole Level"
-              width="600" height="600">
+            <div class="observe-me from-left">
+              <img src="../ffg-site1/image/LevelGrad.jpg" alt="Image of women graduating from their Pole Level"
+                width="600" height="600">
+            </div>
           </div>
 
           <div class="one-third column">
@@ -100,8 +107,10 @@
           </div>
 
           <div class="one-third column">
-            <img src="../ffg-site1/image/PoleGrad.jpg" alt="Image of women graduating from their Pole Level" width="600"
-              height="600">
+            <div class="observe-me from-right">
+              <img src="../ffg-site1/image/PoleGrad.jpg" alt="Image of women graduating from their Pole Level"
+                width="600" height="600">
+            </div>
           </div>
 
         </div>
@@ -121,59 +130,47 @@
     <section id="classes">
       <div class="container">
         <h2 class="section-title">Classes</h2>
-        <div class="row">
 
 
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
 
-          <div class="one-fifth column">
-            <img src="../ffg-site1/image/series-v2.jpg" alt="image of women in a level series class" width="300"
-              height="300">
+            <div class="swiper-slide">
 
-            <!-- <h3>Series</h3> -->
+              <img src="../ffg-site1-v2/image/series-v2.jpg" alt="Placeholder Image">
+              <p><a class="class-button" href="#">Series</a></p>
+            </div>
 
+            <div class="swiper-slide">
+              <img src="../ffg-site1-v2/image/spin-pole-v2.jpg" alt="Placeholder Image">
+              <p><a class="class-button" href="#">Spin Pole</a></p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../ffg-site1-v2/image/lyra-v2.jpg" alt="Placeholder Image">
+              <p><a class="class-button" href="#">Lyra</a></p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../ffg-site1-v2/image/sensual-dance-v2.jpg" alt="Placeholder Image">
+              <p><a class="class-button" href="#">Sensual Dance</a></p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../ffg-site1-v2/image/roller-blade-v2.jpg" alt="Placeholder Image">
+              <p><a class="class-button" href="#">Roller Blade</a></p>
+            </div>
 
-            <p><a class="class-button" href="#">Series</a></p>
           </div>
+          <!-- If we need pagination
+          <div class="swiper-pagination"></div> -->
 
-          <div class="one-fifth column">
-            <img src="../ffg-site1/image/spin-pole-v2.jpg" alt="image of women in a pole spin class" width="300"
-              height="400">
-
-            <!-- <h3>Spin Pole</h3> -->
-
-
-            <p><a class="class-button" href="#">Spin Pole</a></p>
-          </div>
-
-          <div class="one-fifth column">
-            <img src="../ffg-site1/image/lyra-v2.jpg" alt="image of women in a lyra class" width="300" height="300">
-
-            <!-- <h3>Lyra</h3> -->
-
-            <p><a class="class-button" href="#">Lyra</a></p>
-          </div>
-
-          <div class="one-fifth column">
-            <img src="../ffg-site1/image/sensual-dance-v2.jpg" alt="image of women in a sensual dance class" width="300"
-              height="300">
-
-            <!-- <h3>Dance</h3> -->
-
-
-            <p><a class="class-button" href="#">Sensual Dance</a></p>
-          </div>
-
-          <div class="one-fifth column">
-            <img src="../ffg-site1/image/roller-blade-v2.jpg" alt="image of women in a roller blade pole class"
-              width="300" height="300">
-
-            <!-- <h3>Roller Skate</h3> -->
-
-
-            <p><a class="class-button" href="#">Roller Stakes</a></p>
-          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
 
         </div>
+
 
     </section>
 
@@ -185,9 +182,11 @@
         <h2 class="section-title">Prices</h2>
         <div class="row">
           <div class="one-half column">
-
-            <video loop muted playsinline autoplay width="900" height="1800">
-              <source src="../ffg-site1/image/spin-pole.mp4" type="video/mp4">
+            <div class="observe-me from-left">
+              <video loop muted playsinline autoplay width="900" height="1800">
+                <source src="../ffg-site1/image/spin-pole.mp4" type="video/mp4">
+              </video>
+            </div>
           </div>
           <div class="one-half column">
             <h3>
@@ -215,8 +214,10 @@
 
         <div class="row swapped">
           <div class="two-thirds column">
-            <img src="../ffg-site1/image/emily-superman-v2.jpg" alt="image of a woman doing a superman pose on a pole"
-              width="900" height="900">
+            <div class="observe-me from-right">
+              <img src="../ffg-site1/image/emily-superman-v2.jpg" alt="image of a woman doing a superman pose on a pole"
+                width="900" height="900">
+            </div>
           </div>
           <div class="one-third column">
 
@@ -264,7 +265,9 @@
             </video>
           </div>
           <div class="scheudle-calendarblock">
-            <img src="../ffg-site1/image/schedule.jpg" alt="placeholder" width="1500" height="1500">
+            <div class="observe-me from-left">
+              <img src="../ffg-site1/image/schedule.jpg" alt="placeholder" width="1500" height="1500">
+            </div>
           </div>
         </div>
 
@@ -282,19 +285,25 @@
         <div class="newtopole-grid">
 
           <div class="newtopole-kneehold">
-            <img src="../ffg-site1/image/KneeHold-v2.jpg"
-              alt="image of women hanging upside down on the pole holding with only thier knees" width="1500"
-              height="1500">
+            <div class="observe-me from-left">
+              <img src="../ffg-site1/image/KneeHold-v2.jpg"
+                alt="image of women hanging upside down on the pole holding with only thier knees" width="1500"
+                height="1500">
+            </div>
           </div>
 
           <div class="newtopole-poleclass">
-            <img src="../ffg-site1/image/PoleClass-v2.jpg" alt="image of women learning pole tricks" width="1500"
-              height="1500">
+            <div class="observe-me from-right">
+              <img src="../ffg-site1/image/PoleClass-v2.jpg" alt="image of women learning pole tricks" width="1500"
+                height="1500">
+            </div>
           </div>
 
           <div class="newtopole-poleclass2">
-            <img src="../ffg-site1/image/PoleClass2-v2.jpg" alt="image of women learning pole tricks" width="1500"
-              height="1500">
+            <div class="observe-me from-left">
+              <img src="../ffg-site1/image/PoleClass2-v2.jpg" alt="image of women learning pole tricks" width="1500"
+                height="1500">
+            </div>
           </div>
 
           <div class="newtopole-text">
@@ -359,13 +368,16 @@
             <p>HONOLULU, HI 968224</p>
           </div>
           <div class="one-half column">
-            <img src="../ffg-site1/image/side-studio2.jpg" alt="image of the fit for a goddess studio" width="600"
-              height="600">
+            <div class="observe-me from-right">
+              <img src="../ffg-site1/image/side-studio2.jpg" alt="image of the fit for a goddess studio" width="600"
+                height="600">
+            </div>
           </div>
 
         </div>
 
         <div class="row swapped">
+
           <div class="one-half column">
             <h3>PARKING</h3>
             <p>We are located across the street from Starbucks and Wahoo's Fish Tacos.</p>
@@ -376,8 +388,10 @@
             </p>
           </div>
           <div class="one-half column">
-            <img src="../ffg-site1/image/location.jpg" alt="image of the street view for fit for a goddess" width="600"
-              height="600">
+            <div class="observe-me from-left">
+              <img src="../ffg-site1/image/location.jpg" alt="image of the street view for fit for a goddess"
+                width="600" height="600">
+            </div>
           </div>
 
         </div>
@@ -394,39 +408,45 @@
     <section id="scroll-image">
       <div class="container">
         <!-- <h2 class="section-title">Classes</h2> -->
-        <div class="row">
 
 
+      </div>
 
-          <div class="one-third column">
-            <img src="../ffg-site1/image/story1.jpg" alt="placeholder" width="300" height="300">
-
-
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="../ffg-site1-v2/image/story1.jpg" alt="Placeholder Image" width="500" height="400">
           </div>
-
-          <div class="one-third column">
-            <img src="../ffg-site1/image/story2.jpg" alt="placeholder" width="300" height="300">
-
+          <div class="swiper-slide">
+            <img src="../ffg-site1-v2/image/story2.jpg" alt="Placeholder Image" width="500" height="400">
           </div>
-
-          <div class="one-third column">
-            <img src="../ffg-site1/image/story3.jpg" alt="placeholder" width="300" height="300">
-
+          <div class="swiper-slide">
+            <img src="../ffg-site1-v2/image/story3.jpg" alt="Placeholder Image" width="500" height="400">
           </div>
-
-          <div class="one-third column">
-            <img src="../ffg-site1/image/story4.jpg" alt="placeholder" width="300" height="300">
-
+          <div class="swiper-slide">
+            <img src="../ffg-site1-v2/image/story4.jpg" alt="Placeholder Image" width="500" height="400">
           </div>
-
-          <div class="one-third column">
-            <img src="../ffg-site1/image/story5.jpg" alt="placeholder" width="300" height="300">
-
+          <div class="swiper-slide">
+            <img src="../ffg-site1-v2/image/story5.jpg" alt="Placeholder Image" width="500" height="400">
           </div>
-
+          ...
         </div>
+        <!-- If we need pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+
 
     </section>
+
+
+
 
     <!-- SOCIAL MEDIA -->
     <section id="ig-hand">
@@ -470,8 +490,38 @@
   <!-- SCROLL JS -->
   <script src="js/scroll.js"></script>
 
+  <!-- SCROLL TRIGGER JS -->
+  <script src="js/scrolltrigger.js"></script>
+
+  <!-- SWIPER JS - THIS GOES IN THE BOTTOM OF YOUR .HTML DOCUMENT INSIDE OF BODY-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- SWIPER JS INIT - THIS GOES IN THE BOTTOM OF YOUR .HTML DOCUMENT INSIDE OF BODY AFTER SWIPER.JS -->
+  <script>
+
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+    });
+
+  </script>
+
   <!-- MAIN JS -->
   <script src="js/script.js"></script>
+
+
 
 </body>
 
