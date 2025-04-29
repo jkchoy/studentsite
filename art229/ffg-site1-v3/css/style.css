@@ -269,7 +269,8 @@ form input[type=submit] {
 }
 
 
-.class-button {
+.class-button,
+.swiper-button {
   display: inline-block;
   background-color: transparent;
   border: 1px solid var(--color-links);
@@ -287,7 +288,8 @@ form input[type=submit] {
 
 
 button.alt,
-a.button.alt {
+a.button.alt,
+.swiper-button.alt {
   background-color: transparent;
   border: 1px solid var(--color-links);
   color: #ED187C;
@@ -296,6 +298,7 @@ a.button.alt {
 button:hover,
 a.button:hover,
 .class-button:hover,
+.swiper-button:hover,
 form input[type=submit]:hover {
   background-color: transparent;
   color: #ED187C;
@@ -305,6 +308,7 @@ form input[type=submit]:hover {
 
 }
 
+.swiper-button {}
 
 
 /* LAYOUT */
@@ -1159,7 +1163,11 @@ form input[type=reset]:hover {
 
 @media (min-width: 600px) {
   #contact {
-    padding-bottom: 20em;
+    padding-bottom: 10em;
+  }
+
+  #scroll-image {
+    padding-bottom: 10em;
   }
 }
 
@@ -1453,6 +1461,8 @@ h4 {
 .swiper-slide {
   text-align: center;
 }
+
+
 
 /* INSTAGRAM */
 .ig-hand {
