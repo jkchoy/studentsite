@@ -1194,19 +1194,24 @@ form input[type=reset]:hover {
   padding: 4em 1em 1em 1em;
   text-align: center;
   min-height: 100svh;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: auto auto auto;
   gap: 5vh;
   /* background-color: rgba(0, 0, 0, .8); */
 }
 
 .ffg-title {
-  /* padding-left: 4em; */
-
+  grid-row: 2;
+  justify-self: center;
   font-size: clamp(1em, 3vw, 3em);
   letter-spacing: 2vw;
+  display: grid;
+  place-items: center;
 }
 
 .ffg-title h1 {
@@ -1222,12 +1227,17 @@ form input[type=reset]:hover {
 
 .for-a {
   font-family: "Dancing Script", cursive;
+  display: block;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   color: white;
   text-transform: lowercase;
   letter-spacing: 0;
+  margin-bottom: -.3em;
+  margin-top: -.5em;
+  position: relative;
+  z-index: 10;
 }
 
 
@@ -1242,10 +1252,15 @@ form input[type=reset]:hover {
 }
 
 .ffg-nav {
+  grid-row: 3;
   margin: 0;
   padding: 0;
   list-style: none;
   text-transform: uppercase;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-wrap: wrap;
 
 }
 
