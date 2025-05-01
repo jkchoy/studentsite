@@ -275,11 +275,17 @@ body {
   margin: 0;
 }
 
-.container {
+.container,
+.container-img {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 1em;
+
 }
+
+/* .container-img {
+  border: 2px solid #ccc;
+} */
 
 /* SET YOUR BODY TEXT TO BE RESPONSIVE 
   - Small screens: 14px;
@@ -531,6 +537,8 @@ body {
 
 .section-title {
   padding: 2em 0 2em 0;
+  text-align: center;
+  padding-bottom: 2em;
 }
 
 .section-title h1 {
@@ -1104,4 +1112,48 @@ form input[type=reset]:hover {
 
 .kehindewiley {
   border: solid 1px #ccc;
+}
+
+/* HOVERS ON HOME SCREEN */
+
+.image-hover {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  margin: 0;
+  transition: .5s ease;
+  background-color: rgb(23, 215, 212);
+}
+
+.image-hover:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
 }
