@@ -43,7 +43,7 @@
   /* BASE COLORS */
   --color-body-background: rgb(255, 255, 255);
   --color-text-body: rgba(0, 0, 0, 0.8);
-  --color-links: rgb(7, 69, 68);
+  --color-links: rgb(255, 255, 255);
   --color-links-darker: #ab5e82;
   /* BASE TYPOGRAPHY */
   --font-body: system-ui, Helvetica, Arial, sans-serif;
@@ -76,7 +76,7 @@ a {
 
 a:hover {
   /* SET THE COLOR OF ALL HOVER STATES ON TEXT LINKS */
-  color: var(#ab5e82);
+  color: #ab5e82;
 }
 
 /* SET GLOBAL TYPOGRAPHY */
@@ -168,7 +168,7 @@ a {
 }
 
 a:hover {
-  color: (#ab5e82));
+  color: (#ab5e82);
 }
 
 /* TEXT CENTERING HELPER CLASS */
@@ -230,13 +230,13 @@ a.button,
 form input[type=submit] {
   display: inline-block;
   background-color: var(--color-links);
-  border: 1px solid var(--color-links);
-  color: #fff;
+  border: 2px solid #ab5e82;
+  color: #000;
   padding: 0.75em 1em;
   border-radius: 0.32em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  border: none;
+  /* border: none; */
   cursor: pointer;
   line-height: 1;
   text-decoration: none;
@@ -424,7 +424,7 @@ body {
 }
 
 .site-header a:hover {
-  color: rgb(#ab5e82);
+  color: #ab5e82;
 }
 
 .site-header a.button {
@@ -470,7 +470,7 @@ body {
 }
 
 .site-footer a:hover {
-  color: rgb(23, 215, 212);
+  color: #ab5e82;
 }
 
 .site-footer .container {
@@ -1157,3 +1157,57 @@ form input[type=reset]:hover {
   text-align: center;
 
 }
+
+/* SET BODY TYPE */
+body {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+/* SET HEADING TYPE */
+h1,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Arvo", serif;
+
+  font-weight: 400;
+  font-style: normal;
+  color: #ab5e82;
+}
+
+/* .arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+} */
+
+/* .bricolage-grotesque-<uniquifier> {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
