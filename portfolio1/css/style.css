@@ -44,7 +44,7 @@
   --color-body-background: rgb(255, 255, 255);
   --color-text-body: rgba(0, 0, 0, 0.8);
   --color-links: rgb(7, 69, 68);
-  --color-links-darker: (#ab5e82);
+  --color-links-darker: #ab5e82;
   /* BASE TYPOGRAPHY */
   --font-body: system-ui, Helvetica, Arial, sans-serif;
   --font-headings: system-ui, Helvetica, Arial, sans-serif;
