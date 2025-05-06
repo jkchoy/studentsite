@@ -1306,7 +1306,7 @@ form input[type=reset]:hover {
   height: 100%;
   z-index: -1;
   animation-name: animate-ribbon;
-  animation-duration: 130s;
+  animation-duration: 170s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
