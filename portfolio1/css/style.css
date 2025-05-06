@@ -44,7 +44,7 @@
   --color-body-background: rgb(255, 255, 255);
   --color-text-body: rgba(0, 0, 0, 0.8);
   --color-links: rgb(7, 69, 68);
-  --color-links-darker: rgb(23, 215, 212);
+  --color-links-darker: (#ab5e82);
   /* BASE TYPOGRAPHY */
   --font-body: system-ui, Helvetica, Arial, sans-serif;
   --font-headings: system-ui, Helvetica, Arial, sans-serif;
@@ -76,7 +76,7 @@ a {
 
 a:hover {
   /* SET THE COLOR OF ALL HOVER STATES ON TEXT LINKS */
-  color: var(--color-links-darker);
+  color: var(#ab5e82);
 }
 
 /* SET GLOBAL TYPOGRAPHY */
@@ -168,7 +168,7 @@ a {
 }
 
 a:hover {
-  color: rgb(23, 215, 212);
+  color: (#ab5e82));
 }
 
 /* TEXT CENTERING HELPER CLASS */
@@ -424,7 +424,7 @@ body {
 }
 
 .site-header a:hover {
-  color: rgb(23, 215, 212);
+  color: rgb(#ab5e82);
 }
 
 .site-header a.button {
