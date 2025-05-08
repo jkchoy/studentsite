@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jackie Choy | Grid Layout</title>
+  <meta name="description"
+    content="SiteBase: a minimalistic HTML + CSS + JS base front-end framework for simple web site projects.">
+
+  <!-- VIEWPORT FOR MOBILE -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- MAIN CSS FILE -->
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <header class="site-header toggle-nav animated">
+    <div class="site-id">
+      <a href="../portfolio1/index.html"><img src="../image/hex-logo.svg" alt="hex" width="40" height="50"></a>
+      <h1 class="hidden"><a href="#">Grid Layout</a></h1>
+    </div>
+    <nav class="site-navigation ">
+      <button class="menu-button navicon">Menu</button>
+      <ul class="nav">
+        <li class="hidden"><a href="index.html">Home</a></li>
+        <li><a href="../portfolio1/index.html">Home</a></li>
+        <li><a href="../portfolio1/about.html">About Me</a></li>
+        <li><a href="../portfolio1/index.html#work">My Work</a></li>
+        <li><a href="../portfolio1/resume.html">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+      <section class="hero text-centered">
+        <h1>Understanding Grid Layouts</h1>
+        <!-- <p>
+          The objective is to typeset the content in a multi-column gird.
+        </p> -->
+      </section>
+
+      <div class="subpage-twocol">
+
+        <aside class="subpage-sidebar">
+          <!-- <h4 class="subheader">Sub Header 1</h4> -->
+          <nav class="subpage-navigation">
+            <ul class="nav group">
+              <li><a href="#section1">Section 1</a></li>
+              <li>
+                <a href="#section2">Section 2</a>
+                <ul>
+                  <li><a href="#section2a">Sub-Section 2A</a></li>
+                  <li><a href="#section2b">Sub-Section 2B</a></li>
+                  <li><a href="#section2c">Sub-Section 2C</a></li>
+                </ul>
+              </li>
+              <li><a href="#section3">Section 3</a></li>
+            </ul>
+          </nav>
+          <h4 class="subheader">Sub Header 2</h4>
+          <nav class="subpage-navigation">
+            <ul class="nav group">
+              <li><a href="#section4">Section 4</a></li>
+              <li><a href="#section5">Section 5</a></li>
+            </ul>
+          </nav>
+        </aside>
+
+        <div class="subpage-main">
+          <section id="section1">
+            <h2>The Challenge</h2>
+            <p>
+              My task for these assigments was to make thoughtful typographic choices to support readability and reflect
+              the content. I had to select a suitable typeface, adjust size and leading for clarity, and control line
+              length
+              for comfortable reading. I had to use a grid to balance the text blocks with the page layout while
+              following typographic rules and creating clear hierarchy and texture helped make the recipe and resturant
+              menu easy to
+              navigate.
+
+            </p>
+
+          </section>
+
+          <section id="section2">
+            <h2>The Solution</h2>
+            <p>
+              I approached the assignment by selecting a typeface that complements the tone of the recipe while ensuring
+              readability. Careful attention was given to type size, leading, and line length to create a comfortable
+              reading experience. A consistent grid system was used to support the layout and maintain balance across
+              the page. Through clear typographic hierarchy and texture, the final design guides the reader smoothly
+              through the content.
+            </p>
+
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit inventore alias sit ipsa at officia quae
+              quo sunt ex,
+              oluptatum earum eligendi itaque expedita corrupti necessitatibus sequi repellat quod ab.
+            </p>
+            <br><br><br>
+            <h3 id="section2a">Tiramisu</h3>
+            <p>
+              <img src="../portfolio1/portfolio images/tiramisu4.jpg" alt="an image of a tiramisu recipe" width="900"
+                height="1200">
+            </p>
+
+            <h3 id="section2b">Resturant Menu</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio sint voluptatem, omnis qui vero
+              tempore
+              iste! Nostrum deserunt minima fugit animi eveniet? Illo, distinctio. Doloremque tempora ducimus itaque
+              eaque!
+            </p>
+
+            <!-- <h3 id="section2c">Sub-section 2C</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquid, repellat tempora id
+              necessitatibus, aperiam
+              non maxime doloremque quas omnis placeat quia? Fuga corrupti, perferendis soluta tenetur praesentium
+              voluptate, veritatis
+              expedita nostrum alias dicta officiis?
+            </p>
+          </section>
+
+          <section id="section3">
+            <h2>Section 3</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione suscipit eveniet voluptates, animi
+              excepturi eum voluptas
+              voluptatum totam nemo modi.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio sint voluptatem, omnis qui vero
+              tempore
+              iste! Nostrum deserunt minima fugit animi eveniet? Illo, distinctio. Doloremque tempora ducimus itaque
+              eaque!
+            </p>
+          </section>
+
+          <section id="section4">
+            <h2>Section 4</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquid, repellat tempora id
+              necessitatibus, aperiam
+              non maxime doloremque quas omnis placeat quia? Fuga corrupti, perferendis soluta tenetur praesentium
+              voluptate, veritatis
+              expedita nostrum alias dicta officiis?
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione maxime sit sapiente, iusto autem amet,
+              doloremque deserunt
+              aliquid magni maiores consequuntur alias earum nihil, ducimus eos? Alias quis quam reiciendis dolores
+              blanditiis. Reprehenderit,
+              mollitia? Tempora fugit ducimus sit incidunt quaerat, quo et deleniti ipsa cum iure aliquid voluptas odit
+              molestiae.
+            </p>
+          </section>
+
+          <section id="section5">
+            <h2>Section 5</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquid, repellat tempora id
+              necessitatibus, aperiam
+              non maxime doloremque quas omnis placeat quia? Fuga corrupti, perferendis soluta tenetur praesentium
+              voluptate, veritatis
+              expedita nostrum alias dicta officiis?
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias architecto libero ut nemo vel? Magnam
+              asperiores natus eius
+              quasi veritatis!
+            </p> -->
+          </section>
+        </div>
+
+      </div>
+    </div>
+    <!-- END CONTAINER -->
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <nav class="site-navigation">
+        <ul class="nav group">
+          <li><a href="../portfolio1/index.html">Home</a></li>
+          <li><a href="../portfolio1/about.html">About Me</a></li>
+          <li><a href="../portfolio1/index.html#work">My Work</a></li>
+          <li><a href="../portfolio1/resume.html">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- END CONTAINER -->
+  </footer>
+
+  <!-- MAIN JS -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
