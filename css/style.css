@@ -1,34 +1,49 @@
 /* GLOBAL RESET */
-* { box-sizing: border-box; }
-body { margin: 0; }
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
 
 /* GLOBAL COLORS */
-body { color: rgba(0, 0, 0, .8); }
-a { color: #2a3f5e }
-a:hover { color: #ab5e82; }
- 
+body {
+    color: rgba(0, 0, 0, .8);
+}
+
+a {
+    color: #2a3f5e
+}
+
+a:hover {
+    color: #ab5e82;
+}
+
 
 
 /* GLOBAL TYPOGRAPHY */
 body {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 88.75%; /* 14px */
-  line-height: 1.4;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 88.75%;
+    /* 14px */
+    line-height: 1.4;
 }
 
 /* RESPONSIVE IMAGES */
 img {
     max-width: 100%;
     height: auto;
-   
-    
+
+
 }
 
 /* SITE STRUCTURE */
 
 /*HEADER*/
 header {
-    background-color: #1c3150; 
+    background-color: #1c3150;
     color: rgba(0, 0, 0, 0.8);
     padding: 1em;
     display: grid;
@@ -59,7 +74,7 @@ header a:hover {
     position: absolute;
     top: -99999px;
     left: -99999px;
-  }
+}
 
 /* SITE NAV */
 .site-nav ul {
@@ -78,7 +93,7 @@ header a:hover {
 .site-nav a:hover {
     color: #dbc6c0;
 }
- 
+
 /* MAIN */
 main {
     background: rgb(247, 248, 249);
@@ -91,7 +106,7 @@ main {
     text-align: center;
     color: #f5d1b1;
     padding: 6em 1em;
-    
+
 }
 
 .hero h2 {
@@ -99,7 +114,7 @@ main {
     line-height: 1;
     text-transform: uppercase;
     margin: 0 auto;
-    
+
 }
 
 .hero p {
@@ -129,13 +144,18 @@ main {
     text-align: center;
 }
 
-.courses a { color: #dbc6c0; }
-.courses a:hover { color: #303854; }
+.courses a {
+    color: #dbc6c0;
+}
+
+.courses a:hover {
+    color: #303854;
+}
 
 
 /* FOOTER */
 footer {
-    border-top: 1px solid rgba(0,0,0,.05);
+    border-top: 1px solid rgba(0, 0, 0, .05);
     padding: 1em;
     background-color: #131d2c;
 
@@ -152,14 +172,16 @@ footer {
     list-style: none;
 }
 
-.social-nav  a {
+.social-nav a {
     display: block;
     padding: 1em;
     color: #aaa2b1;
 }
 
 
-.social-nav a:hover { color: #dbc6c0; }
+.social-nav a:hover {
+    color: #dbc6c0;
+}
 
 /* LAYOUT */
 .containter {
@@ -184,6 +206,7 @@ aside {
         display: grid;
         grid-template-columns: 20em auto;
     }
+
     .two-col-sidebar aside {
         border-right: 1px solid rgba(0, 0, 0, 1);
         margin: 0 3em 2em 0;
@@ -194,8 +217,8 @@ aside {
 /* STYLING FOR SUB PAGES */
 .page-sub .hero {
     background-color: #626981;
-    color:  #f5d1b1;
-    
+    color: #f5d1b1;
+
 }
 
 
@@ -214,7 +237,7 @@ aside {
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgb(224, 224, 225);
-    
+
 }
 
 
@@ -262,7 +285,7 @@ header {
 
 }
 
-.page-home .hero { 
+.page-home .hero {
 
     background-image: url(../image/mountshasta4.jpg);
     background-size: cover;
@@ -270,10 +293,10 @@ header {
     position: relative;
     padding: 30vh 1em;
     background-color: rgba(0, 0, 0, .8);
-    
+
 }
 
-   
+
 /* .page-home .hero::after {
     content: "";
     display: block;
@@ -287,10 +310,10 @@ header {
 } */
 
 /* DEFINITION LISTS */
-    dt {
-        font-weight: bold;
-        margin-top: 1em;
-    }
+dt {
+    font-weight: bold;
+    margin-top: 1em;
+}
 
 dd {
     margin: 0%;
@@ -321,8 +344,8 @@ dd {
 
 
 .classes a:hover {
-  background-color: #ab5e82;
-  color: #f5d1b1;
-  border-color: #ab5e82;
-  text-decoration: none;
+    background-color: #ab5e82;
+    color: #f5d1b1;
+    border-color: #ab5e82;
+    text-decoration: none;
 }
