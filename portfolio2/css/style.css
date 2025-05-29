@@ -1341,7 +1341,14 @@ option {
   text-decoration: none;
 }
 
+.overlay h4 {
+  color: #030B5F;
+}
 
+
+.overlay h4:hover {
+  color: #ab5e82;
+}
 
 .image-hover:hover .overlay {
   opacity: 4;
