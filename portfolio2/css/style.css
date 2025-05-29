@@ -1337,6 +1337,10 @@ option {
 
 }
 
+.overlay a {
+  text-decoration: none;
+}
+
 
 
 .image-hover:hover .overlay {
