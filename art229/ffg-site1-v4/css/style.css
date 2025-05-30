@@ -1438,7 +1438,7 @@ h4 {
   .newtopole-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 33.3333% 33.3333% 33.3333%;
+    grid-template-rows: 30% 35% 35%;
     gap: 1em;
     padding-bottom: 8em;
 
@@ -1489,6 +1489,7 @@ h4 {
 .prices-text>*:last-child {
   margin-bottom: 0;
 }
+
 
 
 
