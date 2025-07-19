@@ -1637,7 +1637,7 @@ ul {
 }
 
 .cta-text h4 {
-  color: #fff;
+  color: #ED187C;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2px;
@@ -1713,7 +1713,7 @@ ul {
 }
 
 .footer-widget-heading h3 {
-  color: #fff;
+  color: #ED187C;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 40px;
@@ -1739,6 +1739,7 @@ ul {
 
 .footer-widget ul li a:hover {
   color: #ED187C;
+
 }
 
 .footer-widget ul li a {
@@ -1754,8 +1755,8 @@ ul {
 .subscribe-form input {
   width: 100%;
   padding: 14px 28px;
-  background: #2E2E2E;
-  border: 1px solid #2E2E2E;
+  background: #fff;
+  border: 1px solid #ED187C;
   color: #fff;
 }
 
@@ -1775,14 +1776,14 @@ ul {
 }
 
 .copyright-area {
-  background: #202020;
+  background: #fff;
   padding: 25px 0;
 }
 
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: #2E2E2E;
 }
 
 .copyright-text p a {
@@ -1801,4 +1802,5 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
+
 }
