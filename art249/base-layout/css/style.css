@@ -1,0 +1,393 @@
+/* #BASE CSS (Initital Setup)
+---------------------------------
+    #GLOBAL SETTINGS
+        # GLOBAL VARIABLES
+        # GLOBAL RESETS
+        # GLOBAL COLORS
+    #BASE CONTENT
+        #TYPOGRAPHY
+            #BODY
+            #HEADINGS
+            #PARAGRAPHS
+            #LINKS
+        #HELPERS
+        #MEDIA
+            #IMAGES
+            #VIDEO
+        #COMPONENTS
+            #BUTTONS
+    #BASE LAYOUT
+        #SIMPLE RESET
+        #MEDIA QUERIES
+        #CONTAINER
+        #GRID SYSTEM
+    #BASE SITE
+        #SITE STRUCTURE
+            #HEADER
+                # site-id (LOGO)
+            #SITE NAVIGATION
+                #TOGGLE-NAV (Default for Small Screens)
+            #FOOTER
+            #SECTIONS
+            #SUB PAGES
+                #...
+--------------------------------- */
+/* ----------------------------- */
+/* ----- GLOBAL STYLING -------- */
+/* ----------------------------- */
+/* SET GLOBAL VARIABLES */
+:root {
+    /* BASE COLORS */
+    --color-body-background: rgb(60, 98, 91);
+    --color-text-body: rgba(0, 0, 0, 0.8);
+    --color-links: rgb(0, 51, 102);
+    --color-links-darker: rgb(231, 23, 203);
+    /* BASE TYPOGRAPHY */
+    --font-body: system-ui, Helvetica, Arial, sans-serif;
+    --font-headings: system-ui, Helvetica, Arial, sans-serif;
+  }
+  
+  /* GLOBAL RESETS */
+  /* CHANGE BOX-SIZING FOR ALL TO BORDER-BOX */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* REMOVE THE DEFAULT 8px MARGIN ON THE BODY */
+  body {
+    margin: 0;
+  }
+  
+  /* GLOBAL COLORS */
+  body {
+    /* SET THE COLOR OF THE MAIN BODY BACKGROUND */
+    background-color: var(--color-body-background);
+    /* SET THE COLOR OF THE MAIN BODY TEXT */
+    color: var(--color-text-body);
+  }
+  
+  a {
+    /* SET THE COLOR OF ALL TEXT LINKS */
+    color: var(--color-links);
+  }
+  a:hover {
+    /* SET THE COLOR OF ALL HOVER STATES ON TEXT LINKS */
+    color: var(--color-links-darker);
+  }
+  
+  /* SET GLOBAL TYPOGRAPHY */
+  /* # GLOBAL BODY FONT SETTINGS */
+  body {
+    /* SET THE DEFAUT FONT FAMILY FOR ALL MAIN BODY TEXT */
+    font-family: var(--font-body);
+    /* SET THE DEFAULT FONT SIZE ALL MAIN BODY TEXT */
+    font-size: 100%;
+    /* 16px; */
+    /* SET THE DEFAULT LEADING (LINE-HEIGHT) FOR ALL BODY TEXT */
+    line-height: 1.4;
+  }
+  
+  /* # GLOBAL HEADING SETTINGS */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    /* SET THE DEFAUT FONT FAMILY FOR ALL HEADINGS */
+    font-family: var(--font-headings);
+    /* SET THE DEFAUT MARGINS ALL HEADINGS */
+    margin: 0.5em 0;
+  }
+  
+  /* SET THE DEFAULT TYPOGRAPHIC SCALE FOR ALL HEADINGS 
+     (e.g. a "Traditional" Scale) */
+  h1 {
+    font-size: 3em;
+    /* 48px / 16px = 3em */
+    line-height: 1;
+  }
+  
+  h2 {
+    font-size: 2.25em;
+    /* 36px / 16px = 2.25em */
+    line-height: 1.1;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    /* 24px / 16px = 1.5em */
+    line-height: 1.2;
+  }
+  
+  h4 {
+    font-size: 1.3125em;
+    /* 21px / 16px = 1.3125em */
+    line-height: 1.3;
+  }
+  
+  h5 {
+    font-size: 1.125em;
+    /* 18px / 16px = 1.125em */
+    line-height: 1.4;
+  }
+  
+  h6 {
+    font-size: 1em;
+    /* 16px / 16px = 1em */
+    line-height: 1.5;
+  }
+  
+  /* # GLOBAL PARAGRAPH SETTINGS */
+  p {
+    /* SET THE DEFAUT MARGINS ALL PARAGRAPHS */
+    margin: 0.5em 0;
+    /* SET THE NUMBER OF CHARACTERS PER LINE */
+    max-width: 65ch;
+    /* WIDOW FIXER */
+    text-wrap: pretty;
+  }
+  
+  /* SET THE DEFAUT WEIGHT FOR BOLD/STRONG TEXT */
+  strong {
+    font-weight: 700;
+  }
+  
+  /* SET THE DEFAUT STYLING FOR ITALIC/EMPASIZED TEXT */
+  em {
+    font-style: italic;
+  }
+  
+  /* #LINKS */
+  a {
+    color: var(--color-links);
+  }
+  
+  a:hover {
+    color: var(--color-links-darker);
+  }
+  
+  /* TEXT CENTERING HELPER CLASS */
+  .text-centered {
+    text-align: center;
+  }
+  
+  .text-centered p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* #MEDIA  */
+  /* #IMAGES */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* #VIDEO */
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* #COMPONENTS  */
+  /* #BUTTONS */
+  button {
+    font-size: inherit;
+  }
+  
+  button,
+  a.button {
+    display: inline-block;
+    background-color: var(--color-links);
+    border: 1px solid var(--color-links);
+    color: #fff;
+    padding: 0.75em 1em;
+    border-radius: 0.32em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
+  }
+  
+  button.alt,
+  a.button.alt {
+    background-color: transparent;
+    border: 1px solid var(--color-links);
+    color: var(--color-links);
+  }
+  
+  button:hover,
+  a.button:hover {
+    background-color: var(--color-links-darker);
+    color: #fff;
+    border-color: var(--color-links-darker);
+    text-decoration: none;
+  }
+  
+  /* LAYOUT */
+  /*
+  #MEDIA QUERIES (Mobile First)
+      #DEFAULT+ (Mobile First - Default Settings in the CSS Above)
+      #SMALL- (Mobile Only Overrides) - max-width: 767px
+      #MEDIUM+ (Tablet) - min-width: 768px
+      #LARGE+ (Desktop) - min-width: 1050px
+      #EXTRALARGE+ (Desktop+) - min-width: 1250px  */
+  /* SMALL+ (Mobile First Defaults) */
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1em;
+  }
+  
+  /* SET YOUR BODY TEXT TO BE RESPONSIVE 
+    - Small screens: 14px;
+    - Medium Screens: 16px;
+    - Large Screens: 18px;
+  */
+  /* MOBILE FIRST (DEFAULT) */
+  body {
+    font-size: 87.5%;
+    /* 14px; */
+  }
+  
+  /* #MEDIUM+ MEDIA QUERY */
+  @media (min-width: 768px) {
+    /* Inherits Small/Mobile Body Type from Above */
+  }
+  /* #LARGE+ MEDIA QUERY */
+  @media (min-width: 1050px) {
+    /* LARGE BODY TYPE */
+    body {
+      font-size: 100%;
+      /* 16px; */
+    }
+  }
+  /* #EXTRA-LARGE+ MEDIA QUERY */
+  @media (min-width: 1250px) {
+    /* EXTRA-LARGE BODY TYPE */
+    body {
+      font-size: 112.5%;
+      /* 18px; */
+    }
+  
+    /* FIXED WIDTH */
+    .container {
+      max-width: 1200px;
+    }
+  }
+  /* SEMANTIC GRID USING CSS FLEX BOX */
+  .row {
+    --gridgap: 4%;
+  }
+  
+  .row > * {
+    margin-bottom: var(--gridgap);
+  }
+  
+  @media (min-width: 768px) {
+    .row {
+      display: flex;
+      gap: var(--gridgap);
+    }
+  
+    .row > .one-whole {
+      width: 100%;
+    }
+  
+    .row > .one-half {
+      width: calc(50% - var(--gridgap) / 2);
+    }
+  
+    .row > .one-third {
+      width: calc(33.3333% - var(--gridgap) / 1.5);
+    }
+  
+    .row > .two-thirds {
+      width: calc(66.6666% - var(--gridgap) / 3);
+    }
+  
+    .row > .one-fourth {
+      width: calc(25% - var(--gridgap) / 1.5);
+    }
+  
+    .row > .three-fourths {
+      width: calc(75% - var(--gridgap) / 2.5);
+    }
+  
+    .row > .push-one-half {
+      margin-left: calc(50% - var(--gridgap) / 2 + var(--gridgap));
+    }
+  
+    .row > .push-one-third {
+      margin-left: calc(33.3333% - var(--gridgap) / 1.5 + var(--gridgap));
+    }
+  
+    .row > .push-one-fourth {
+      margin-left: calc(25% - var(--gridgap) / 1.5 + var(--gridgap));
+    }
+  
+    .row > .centered {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  /* FOR DEMO PURPOSES ONLY */
+  .demo .column {
+    padding: 1em;
+    background: #ddd;
+    text-align: center;
+  }
+  .demo .column p {
+    margin: 0;
+    padding: 0 0.5em;
+    max-width: none;
+  }
+  
+  .demo {
+    padding: 2em 0;
+  }
+  
+  .demo:after {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    content: "Small (less than 768px)";
+    color: #fff;
+    background: #993333;
+  }
+  
+  @media (min-width: 768px) {
+    body.demo:after {
+      content: "Medium (768px - 1049px)";
+      background: #bcb83d;
+    }
+  }
+  @media (min-width: 1050px) {
+    body.demo:after {
+      content: "Large (1050px - 1249px)";
+      background: #669933;
+    }
+  }
+  @media (min-width: 1250px) {
+    body.demo:after {
+      content: "Extra Large (1250px +)";
+      background: #0099cc;
+    }
+  }
+  .demo .column p:last-child {
+    margin-bottom: 0;
+  }
