@@ -14,7 +14,8 @@ body {
 }
 
 a {
-    color: #2a3f5e
+    color: #2a3f5e;
+    text-decoration: none;
 }
 
 a:hover {
@@ -420,11 +421,13 @@ dd {
     font-weight: 700;
     font-size: 1.75em;
     transition: opacity 350ms;
+    text-decoration: none;
 }
 
 .honeycomb-cell_title>small {
     font-weight: 300;
     margin-top: 0.25em;
+    text-decoration: none;
 }
 
 .honeycomb-cell::before,
