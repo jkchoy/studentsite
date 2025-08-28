@@ -537,3 +537,11 @@ dd {
         display: block;
     }
 }
+
+a.disabled,
+.disabled:hover {
+    color: #8f8c8c;
+    text-decoration: none;
+    cursor: default;
+
+}
