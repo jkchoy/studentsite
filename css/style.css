@@ -201,7 +201,7 @@ section {
 
 /* SIDE BAR/ASIDE */
 
-aside {
+aside.notes {
     padding: 2em 0;
 }
 
