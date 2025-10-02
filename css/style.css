@@ -545,3 +545,9 @@ a.disabled,
     cursor: default;
 
 }
+
+
+/* STRIKETHROUGH FOR HONOLULU VIBES */
+.strikethrough {
+    text-decoration: line-through;
+}
