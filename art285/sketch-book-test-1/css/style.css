@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fafafa;
+  height: 100vh;
+}
+
+#flipbook {
+  width: 800px;
+  height: 500px;
+  margin-top: 40px;
+}
+
+#flipbook .cover,
+#flipbook .page,
+#flipbook .back-cover {
+  background: white;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 22px;
+  line-height: 500px;
+}
+
+.controls {
+  margin-top: 20px;
+}

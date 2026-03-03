@@ -148,6 +148,23 @@ h6 {
   line-height: 1.5;
 }
 
+/* EYEBROW */
+.ffg-eyebrow {
+  font-size: .875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: .8;
+  line-height: 1;
+}
+
+
+/* ITALIC */
+.ffg-italic {
+  font-size: .8em;
+  opacity: .7;
+
+}
+
 /* # GLOBAL PARAGRAPH SETTINGS */
 p {
   /* SET THE DEFAUT MARGINS ALL PARAGRAPHS */
